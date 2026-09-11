@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "mi-app",
+    "slug": "mi-app",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/mugiwareLogo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/mugiwareLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/mugiwareLogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.jac112206.loyaltyapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4da12390-2cb8-4b0c-9c2d-3a74216ac3d3"
+      }
+    }
+  }
+}
